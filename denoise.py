@@ -115,5 +115,5 @@ def plot_oscilloscope_view(noisy, clean, reconstructed, index):
 plot_oscilloscope_view(noisy_data, clean_data, reconstructed_data, index=0)
 
 # Visualize more data points if needed
-for i in range(1, 10):  # Change the range as needed
-    plot_oscilloscope_view(noisy_data, clean_data, reconstructed_data, i)
+for i in range(1, 5):  # Change the range as needed
+    plot_oscilloscope_view(noisy_data, clean_data, reconstructed_data, i*250)
